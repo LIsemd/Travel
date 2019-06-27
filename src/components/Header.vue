@@ -37,17 +37,21 @@ export default {
       flex 1
       height .64rem
       line-height .64rem
-      border-radius .1rem
+      border-radius .05rem
       background #fff
       color #ccc
-      margin-top .12rem
+      margin-top .16rem
+      margin-bottom .16rem
       margin-left .2rem
       padding-left .2rem
     .header-right
       width 1.24rem
       float right
       text-align center
+      line-height 1rem
+      margin-right .1rem
       .arrow-icon
-        margin-left -.04rem
-        font-size .24rem
+        margin: -.05rem .1rem 0 -.2rem
+        float: right
+        font-size: 0.24rem
 </style>
