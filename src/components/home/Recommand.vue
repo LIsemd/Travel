@@ -34,21 +34,6 @@ export default {
         imgUrl: 'http://img1.qunarzz.com/sight/p0/1506/f6/f6b727f036fe5d6d.water.jpg_200x200_a3c26b4d.jpg',
         title: '鼓浪屿',
         desc: '你离鼓浪屿只有一张船票的距离~'
-      }, {
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1506/f6/f6b727f036fe5d6d.water.jpg_200x200_a3c26b4d.jpg',
-        title: '鼓浪屿',
-        desc: '你离鼓浪屿只有一张船票的距离~'
-      }, {
-        id: '0005',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1506/f6/f6b727f036fe5d6d.water.jpg_200x200_a3c26b4d.jpg',
-        title: '鼓浪屿',
-        desc: '你离鼓浪屿只有一张船票的距离~'
-      }, {
-        id: '0006',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1506/f6/f6b727f036fe5d6d.water.jpg_200x200_a3c26b4d.jpg',
-        title: '鼓浪屿',
-        desc: '你离鼓浪屿只有一张船票的距离~'
       }]
     }
   }
