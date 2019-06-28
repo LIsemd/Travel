@@ -54,7 +54,7 @@ export default {
     right 0
     top 0
     bottom 0
-    background-color #000
+    background-color rgba(0,0,0,.9)
     .wrapper
       width 100%
       margin-top 50%
