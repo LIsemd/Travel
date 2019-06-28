@@ -17,16 +17,19 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 export default {
   name: 'HomeHeader',
-  props: {
-    city: String
+  computed: {
+    ...mapState(['city'])
   }
+
 }
 </script>
 
 <style lang="stylus" scoped>
   @import "../../assets/styles/varibles.styl"
+  @import "../../assets/styles/mixins.styl"
   .header
     display: flex
     background $bgColor
@@ -51,13 +54,12 @@ export default {
       padding-left .2rem
     .header-right
       color #fff
-      width 1.24rem
+      min-width 1.04rem
+      padding 0 .1rem
       float right
       text-align center
-      line-height 1rem
-      margin-right .1rem
+      margin-top .05rem
       .arrow-icon
-        margin: -.05rem .1rem 0 -.2rem
-        float: right
-        font-size: 0.24rem
+        margin-left -.04rem
+        font-size 0.24rem
 </style>
